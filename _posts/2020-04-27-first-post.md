@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "First Post"
+title:  "COVID-19 Data Analysis"
 date:   2020-04-27 17:09:38 +0200
 categories: jekyll update
 ---
