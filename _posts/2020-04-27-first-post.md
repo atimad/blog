@@ -7,5 +7,20 @@ categories: jekyll update
 ## COVID-19
 Presented in Microsoft Power BI using python and DAX.
 {% raw %}
-<iframe width="100%" height="100%" src="https://app.powerbi.com/view?r=eyJrIjoiMmViZjcxNTctZGZkZC00YzNhLWI3ZWEtYTM1ODk5YmQzM2M0IiwidCI6Ijc0NjU3ZTFlLTk3NDMtNDhmMi04NjI4LTc4ZTlkMjlhYTA2NCIsImMiOjl9" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+<div class="resp-container">
+<iframe class="resp-iframe" src="https://app.powerbi.com/view?r=eyJrIjoiMmViZjcxNTctZGZkZC00YzNhLWI3ZWEtYTM1ODk5YmQzM2M0IiwidCI6Ijc0NjU3ZTFlLTk3NDMtNDhmMi04NjI4LTc4ZTlkMjlhYTA2NCIsImMiOjl9" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+</div>
+.resp-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+.resp-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
 {% endraw %}
